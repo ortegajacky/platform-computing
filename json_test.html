@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+    <head>
+        <script>
+            // JSON.parse() - converts a JSON string into a JavaScript object
+            //var stringCompany1 = '{"company": "Esri", "location": "Redlands", "year":"1969"}'; // string
+            //var stringCompany2 = '{"company": "Apple", "location":"Cupertino", "year":"1976"}';
+            //var stringCompany3 = '{"company": "IBM", "location":"Endicott", "year":"1911"}'; 
+
+            //var object1 = JSON.parse(stringCompany1); // converting a JSON string into a JS object
+            //var object2 = JSON.parse(stringCompany2);
+            //var object3 = JSON.parse(stringCompany3);
+
+            //console.log(object1.company);
+            //console.log(object2.company);
+            //console.log(object3.company);
+
+            // JSON.stringify() - converts a JavaScript object to a JSON string
+            var object1 = {company: "Esri", location: "Redlands", year: 1969}; // object
+            var object2 = {company: "Apple", location: "Cupertino", year: 1976}; 
+            var object3 = {company: "IBM", location: "Endicott", year: 1911};
+
+            var string1 = JSON.stringify(object1); // converting a JS object to a JSON string
+            var string2 = JSON.stringify(object2);
+            var string3 = JSON.stringify(object3);
+
+            console.log(string1);
+            console.log(string2);
+            console.log(string3);
+        </script>
+    </head>
+
+    <body>
+        <h2>Testing JSON Parsing and Stringify</h2>
+    </body>
+
+</html>
