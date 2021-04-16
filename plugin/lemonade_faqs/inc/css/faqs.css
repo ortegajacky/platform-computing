@@ -1,0 +1,14 @@
+/* Basic FAQ Styles */
+
+/* Accordion */
+#faq-accordion .panel .panel-heading {
+	padding: 0px;
+}
+#faq-accordion .panel .panel-heading h3 a {
+	display: block;
+	padding: 10px 15px;
+}
+#faq-accordion .panel .panel-heading h3 a:hover,
+#faq-accordion .panel .panel-heading h3 a:focus {
+	text-decoration: none;
+} 
